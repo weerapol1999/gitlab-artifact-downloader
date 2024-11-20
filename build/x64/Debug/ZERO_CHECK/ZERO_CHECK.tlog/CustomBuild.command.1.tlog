@@ -1,0 +1,10 @@
+^C:\GITLAB-ARTIFACT-DOWNLOADER\BUILD\CMAKEFILES\88C54D79DCACD0DC6F9B3D6D5DEEA00F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/gitlab-artifact-downloader -BC:/gitlab-artifact-downloader/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/gitlab-artifact-downloader/build/gitlab-artifact-downloader.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

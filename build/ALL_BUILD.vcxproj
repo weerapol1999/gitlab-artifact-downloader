@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E526C51A-E412-38DC-BEF1-7EBC13C3D586}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gitlab-artifact-downloader\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/gitlab-artifact-downloader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/gitlab-artifact-downloader -BC:/gitlab-artifact-downloader/build --check-stamp-file C:/gitlab-artifact-downloader/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindBrotli.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-namespaced-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\vcpkg.json;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\gitlab-artifact-downloader\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/gitlab-artifact-downloader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/gitlab-artifact-downloader -BC:/gitlab-artifact-downloader/build --check-stamp-file C:/gitlab-artifact-downloader/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindBrotli.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-namespaced-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\vcpkg.json;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\gitlab-artifact-downloader\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/gitlab-artifact-downloader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/gitlab-artifact-downloader -BC:/gitlab-artifact-downloader/build --check-stamp-file C:/gitlab-artifact-downloader/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindBrotli.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-namespaced-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\vcpkg.json;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\gitlab-artifact-downloader\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/gitlab-artifact-downloader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/gitlab-artifact-downloader -BC:/gitlab-artifact-downloader/build --check-stamp-file C:/gitlab-artifact-downloader/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\gitlab-artifact-downloader\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindBrotli.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-namespaced-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncpp-targets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\jsoncpp\jsoncppConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\gitlab-artifact-downloader\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\gitlab-artifact-downloader\vcpkg.json;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\gitlab-artifact-downloader\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\gitlab-artifact-downloader\build\ZERO_CHECK.vcxproj">
+      <Project>{EB3DB586-EBE8-3A81-99DE-42AA54D1957C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitlab-artifact-downloader\build\src\gitlab-downloader.vcxproj">
+      <Project>{0C8ABC42-FFE2-3FF7-A28A-D63058A38856}</Project>
+      <Name>gitlab-downloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitlab-artifact-downloader\build\src\gitlab-downloader-lib.vcxproj">
+      <Project>{B167916C-D51B-32AA-B52F-88AF9FE34CED}</Project>
+      <Name>gitlab-downloader-lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

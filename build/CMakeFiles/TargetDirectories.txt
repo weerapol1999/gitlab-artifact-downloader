@@ -1,0 +1,4 @@
+C:/gitlab-artifact-downloader/build/CMakeFiles/ALL_BUILD.dir
+C:/gitlab-artifact-downloader/build/CMakeFiles/ZERO_CHECK.dir
+C:/gitlab-artifact-downloader/build/src/CMakeFiles/gitlab-downloader-lib.dir
+C:/gitlab-artifact-downloader/build/src/CMakeFiles/gitlab-downloader.dir

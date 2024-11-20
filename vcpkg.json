@@ -1,0 +1,14 @@
+{
+    "name": "gitlab-artifact-downloader",
+    "version": "1.0.0",
+    "dependencies": [
+      "drogon",
+      "jsoncpp",
+      "sqlite3",
+      {
+        "name": "openssl",
+        "platform": "(windows & !uwp) | linux | osx"
+      }
+    ]
+  }
+  

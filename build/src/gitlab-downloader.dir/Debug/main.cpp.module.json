@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "gitlab-downloader.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\gitlab-artifact-downloader\\build\\src\\gitlab-downloader.dir\\Debug\\vc143.pdb",
+                "gitlab-downloader.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

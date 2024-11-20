@@ -1,0 +1,32 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe
+All requested packages are currently installed.
+Total install time: 300 ns
+openssl is compatible with built-in CMake targets:
+
+  find_package(OpenSSL REQUIRED)
+  target_link_libraries(main PRIVATE OpenSSL::SSL)
+  target_link_libraries(main PRIVATE OpenSSL::Crypto)
+
+jsoncpp provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(jsoncpp CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE JsonCpp::JsonCpp)
+
+jsoncpp provides pkg-config modules:
+
+  # A C++ library for interacting with JSON
+  jsoncpp
+
+The package drogon provides CMake targets:
+
+    find_package(Drogon CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Drogon::Drogon)
+
+sqlite3 provides pkgconfig bindings.
+sqlite3 provides CMake targets:
+
+    find_package(unofficial-sqlite3 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial::sqlite3::sqlite3)
+

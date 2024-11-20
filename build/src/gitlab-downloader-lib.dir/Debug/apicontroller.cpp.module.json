@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "gitlab-downloader-lib.dir\\Debug\\ApiController.obj",
+            "outputs": [
+                "C:\\gitlab-artifact-downloader\\build\\src\\Debug\\gitlab-downloader-lib.pdb",
+                "gitlab-downloader-lib.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

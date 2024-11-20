@@ -1,0 +1,543 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 20/11/2567 16:19:48.
+      
+      Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in C:\\gitlab-artifact-downloader\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/gitlab-artifact-downloader/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-pn9smm"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-pn9smm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-pn9smm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ef85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:50.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn9smm\\cmTC_4ef85.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4ef85.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn9smm\\Debug\\".
+          Creating directory "cmTC_4ef85.dir\\Debug\\cmTC_4ef85.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4ef85.dir\\Debug\\cmTC_4ef85.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4ef85.dir\\Debug\\cmTC_4ef85.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ef85.dir\\Debug\\\\" /Fd"cmTC_4ef85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ef85.dir\\Debug\\\\" /Fd"cmTC_4ef85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn9smm\\Debug\\cmTC_4ef85.exe" /INCREMENTAL /ILK:"cmTC_4ef85.dir\\Debug\\cmTC_4ef85.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-pn9smm/Debug/cmTC_4ef85.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-pn9smm/Debug/cmTC_4ef85.lib" /MACHINE:X64  /machine:x64 cmTC_4ef85.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4ef85.vcxproj -> C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn9smm\\Debug\\cmTC_4ef85.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4ef85.dir\\Debug\\cmTC_4ef85.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4ef85.dir\\Debug\\cmTC_4ef85.tlog\\cmTC_4ef85.lastbuildstate".
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn9smm\\cmTC_4ef85.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32822.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/trantor/TrantorConfig.cmake:48 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-7paovf"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-7paovf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/gitlab-artifact-downloader/cmake;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/drogon;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/trantor"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-7paovf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_930fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:51.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_930fe.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\Debug\\".
+          Creating directory "cmTC_930fe.dir\\Debug\\cmTC_930fe.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_930fe.dir\\Debug\\cmTC_930fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_930fe.dir\\Debug\\cmTC_930fe.tlog\\unsuccessfulbuild".
+        SetModuleDependencies:
+          Creating directory "cmTC_930fe.dir\\Debug\\cmTC_930fe_MD.tlog\\".
+          Scanning sources for module dependencies...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_930fe.dir\\Debug\\\\" /scanDependencies "cmTC_930fe.dir\\Debug\\\\" /Fo"cmTC_930fe.dir\\Debug\\\\" /Fd"cmTC_930fe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_930fe.dir\\Debug\\\\" /scanDependencies "cmTC_930fe.dir\\Debug\\\\" /Fo"cmTC_930fe.dir\\Debug\\\\" /Fd"cmTC_930fe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx"
+          src.cxx
+        C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets(493,5): warning MSB8074: Cannot read Module Dependencies file cmTC_930fe.dir\\Debug\\src.cxx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect. [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        ClCompile:
+          Compiling...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_930fe.dir\\Debug\\\\" /Fo"cmTC_930fe.dir\\Debug\\\\" /Fd"cmTC_930fe.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_930fe.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_930fe.dir\\Debug\\\\" /Fo"cmTC_930fe.dir\\Debug\\\\" /Fd"cmTC_930fe.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_930fe.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx"
+          src.cxx
+        C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj" (default target) (1) ->
+        (SetModuleDependencies target) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets(493,5): warning MSB8074: Cannot read Module Dependencies file cmTC_930fe.dir\\Debug\\src.cxx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect. [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        
+        
+        "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj" (default target) (1) ->
+        (SetModuleDependencies target) -> 
+          C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        
+        
+        "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7paovf\\cmTC_930fe.vcxproj]
+        
+            1 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/trantor/TrantorConfig.cmake:48 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-zmu1ed"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-zmu1ed"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/gitlab-artifact-downloader/cmake;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/drogon;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/trantor"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-zmu1ed'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f38a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:52.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\cmTC_f38a0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f38a0.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\Debug\\".
+          Creating directory "cmTC_f38a0.dir\\Debug\\cmTC_f38a0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f38a0.dir\\Debug\\cmTC_f38a0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f38a0.dir\\Debug\\cmTC_f38a0.tlog\\unsuccessfulbuild".
+        SetModuleDependencies:
+          Creating directory "cmTC_f38a0.dir\\Debug\\cmTC_f38a0_MD.tlog\\".
+          Scanning sources for module dependencies...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_f38a0.dir\\Debug\\\\" /scanDependencies "cmTC_f38a0.dir\\Debug\\\\" /Fo"cmTC_f38a0.dir\\Debug\\\\" /Fd"cmTC_f38a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_f38a0.dir\\Debug\\\\" /scanDependencies "cmTC_f38a0.dir\\Debug\\\\" /Fo"cmTC_f38a0.dir\\Debug\\\\" /Fd"cmTC_f38a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        ClCompile:
+          Compiling...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_f38a0.dir\\Debug\\\\" /Fo"cmTC_f38a0.dir\\Debug\\\\" /Fd"cmTC_f38a0.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_f38a0.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_f38a0.dir\\Debug\\\\" /Fo"cmTC_f38a0.dir\\Debug\\\\" /Fd"cmTC_f38a0.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_f38a0.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\Debug\\cmTC_f38a0.exe" /INCREMENTAL /ILK:"cmTC_f38a0.dir\\Debug\\cmTC_f38a0.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-zmu1ed/Debug/cmTC_f38a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-zmu1ed/Debug/cmTC_f38a0.lib" /MACHINE:X64  /machine:x64 cmTC_f38a0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\cmTC_f38a0.vcxproj]
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\cmTC_f38a0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\cmTC_f38a0.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zmu1ed\\cmTC_f38a0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/trantor/TrantorConfig.cmake:48 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-yl2x14"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-yl2x14"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/gitlab-artifact-downloader/cmake;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/drogon;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/trantor"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-yl2x14'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24d96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:52.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\cmTC_24d96.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_24d96.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\Debug\\".
+          Creating directory "cmTC_24d96.dir\\Debug\\cmTC_24d96.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_24d96.dir\\Debug\\cmTC_24d96.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_24d96.dir\\Debug\\cmTC_24d96.tlog\\unsuccessfulbuild".
+        SetModuleDependencies:
+          Creating directory "cmTC_24d96.dir\\Debug\\cmTC_24d96_MD.tlog\\".
+          Scanning sources for module dependencies...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_24d96.dir\\Debug\\\\" /scanDependencies "cmTC_24d96.dir\\Debug\\\\" /Fo"cmTC_24d96.dir\\Debug\\\\" /Fd"cmTC_24d96.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_24d96.dir\\Debug\\\\" /scanDependencies "cmTC_24d96.dir\\Debug\\\\" /Fo"cmTC_24d96.dir\\Debug\\\\" /Fd"cmTC_24d96.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        ClCompile:
+          Compiling...
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_24d96.dir\\Debug\\\\" /Fo"cmTC_24d96.dir\\Debug\\\\" /Fd"cmTC_24d96.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_24d96.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_24d96.dir\\Debug\\\\" /Fo"cmTC_24d96.dir\\Debug\\\\" /Fd"cmTC_24d96.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_24d96.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\Debug\\cmTC_24d96.exe" /INCREMENTAL /ILK:"cmTC_24d96.dir\\Debug\\cmTC_24d96.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-yl2x14/Debug/cmTC_24d96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-yl2x14/Debug/cmTC_24d96.lib" /MACHINE:X64  /machine:x64 cmTC_24d96.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\cmTC_24d96.vcxproj]
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\cmTC_24d96.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\cmTC_24d96.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yl2x14\\cmTC_24d96.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/FindFilesystem.cmake:162 (check_include_file_cxx)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/DrogonConfig.cmake:70 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Looking for C++ include filesystem"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-lsdswq"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-lsdswq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/gitlab-artifact-downloader/cmake;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/drogon;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/trantor"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "_CXX_FILESYSTEM_HAVE_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-lsdswq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83df8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:53.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\cmTC_83df8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_83df8.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\Debug\\".
+          Creating directory "cmTC_83df8.dir\\Debug\\cmTC_83df8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_83df8.dir\\Debug\\cmTC_83df8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_83df8.dir\\Debug\\cmTC_83df8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_83df8.dir\\Debug\\\\" /Fd"cmTC_83df8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_83df8.dir\\Debug\\\\" /Fd"cmTC_83df8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\Debug\\cmTC_83df8.exe" /INCREMENTAL /ILK:"cmTC_83df8.dir\\Debug\\cmTC_83df8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-lsdswq/Debug/cmTC_83df8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-lsdswq/Debug/cmTC_83df8.lib" /MACHINE:X64  /machine:x64 cmTC_83df8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_83df8.vcxproj -> C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\Debug\\cmTC_83df8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_83df8.dir\\Debug\\cmTC_83df8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_83df8.dir\\Debug\\cmTC_83df8.tlog\\cmTC_83df8.lastbuildstate".
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsdswq\\cmTC_83df8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceRuns.cmake:99 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/FindFilesystem.cmake:126 (check_cxx_source_runs)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/FindFilesystem.cmake:220 (_cmcm_check_cxx_source)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/drogon/DrogonConfig.cmake:70 (find_dependency)"
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
+    directories:
+      source: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-ai7qhr"
+      binary: "C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-ai7qhr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/gitlab-artifact-downloader/cmake;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/drogon;C:/gitlab-artifact-downloader/build/vcpkg_installed/x64-windows/share/trantor"
+      VCPKG_INSTALLED_DIR: "C:/gitlab-artifact-downloader/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg"
+    buildResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-ai7qhr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_415cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/11/2567 16:19:55.
+        
+        Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\cmTC_415cd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_415cd.dir\\Debug\\".
+          Creating directory "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\Debug\\".
+          Creating directory "cmTC_415cd.dir\\Debug\\cmTC_415cd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_415cd.dir\\Debug\\cmTC_415cd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_415cd.dir\\Debug\\cmTC_415cd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_415cd.dir\\Debug\\\\" /Fd"cmTC_415cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          src.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_415cd.dir\\Debug\\\\" /Fd"cmTC_415cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\src.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\Debug\\cmTC_415cd.exe" /INCREMENTAL /ILK:"cmTC_415cd.dir\\Debug\\cmTC_415cd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-ai7qhr/Debug/cmTC_415cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/gitlab-artifact-downloader/build/CMakeFiles/CMakeScratch/TryCompile-ai7qhr/Debug/cmTC_415cd.lib" /MACHINE:X64  /machine:x64 cmTC_415cd.dir\\Debug\\src.obj
+          cmTC_415cd.vcxproj -> C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\Debug\\cmTC_415cd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_415cd.dir\\Debug\\cmTC_415cd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_415cd.dir\\Debug\\cmTC_415cd.tlog\\cmTC_415cd.lastbuildstate".
+        Done Building Project "C:\\gitlab-artifact-downloader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai7qhr\\cmTC_415cd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.31
+        
+      exitCode: 0
+    runResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE"
+      cached: true
+      stdout: |
+        C:/gitlab-artifact-downloader/build
+      stderr: |
+      exitCode: 0
+...
